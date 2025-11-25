@@ -1,0 +1,44 @@
+export const metadata = {
+  metadataBase: new URL("https://www.qaryahdigital.com"),
+  title: "Qaryah Digital — AI × Blockchain for the Ummah",
+  description:
+    "Qaryah Digital is a super-app ecosystem combining AI, blockchain, and gold-pegged Islamic finance for the Ummah. Built in Singapore.",
+  keywords: [
+    "Qaryah Digital",
+    "QGT token",
+    "Islamic fintech",
+    "gold pegged token",
+    "SunnahMall",
+    "Halal marketplace",
+    "Islamic super app",
+    "AI for Muslims",
+    "Ummah digital economy",
+  ],
+  authors: [{ name: "Qaryah Digital" }],
+  creator: "Qaryah Digital",
+  publisher: "Qaryah Digital Pte Ltd",
+  openGraph: {
+    title: "Qaryah Digital — AI × Blockchain for the Ummah",
+    description:
+      "A super-app ecosystem powering halal commerce, SunnahMall, and gold-pegged finance with QGT.",
+    url: "https://www.qaryahdigital.com",
+    siteName: "Qaryah Digital",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Qaryah Digital — AI × Blockchain for the Ummah",
+      },
+    ],
+    locale: "en_SG",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Qaryah Digital — AI × Blockchain for the Ummah",
+    description:
+      "AI × Blockchain × Real-World Value (QGT) for the global Ummah.",
+    images: ["/og-image.png"],
+  },
+};
